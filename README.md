@@ -57,4 +57,4 @@ See https://github.com/sddcinfo/supermicro/blob/master/bios.txt
 ```bash
 ipmitool -H $HOST -U $USER -P $PASS chassis bootdev pxe options=efiboot
 ```
-This will force the server to boot PXE on the next boot.
+This will force the server to boot PXE on the next boot only.
